@@ -1,0 +1,8 @@
+uuid: 05294110-01c1-4376-9912-918479b4a70a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Produktu katalgos'
+vid: produktu_katalgos
+description: 'Displays available products'
+weight: 0
