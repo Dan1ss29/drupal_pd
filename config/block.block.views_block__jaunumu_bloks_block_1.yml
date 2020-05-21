@@ -1,0 +1,24 @@
+uuid: fce0f06a-176b-4309-bcdd-713f6acc24a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.jaunumu_bloks
+  module:
+    - views
+  theme:
+    - drupal8_w3css_subtheme
+id: views_block__jaunumu_bloks_block_1
+theme: drupal8_w3css_subtheme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:jaunumu_bloks-block_1'
+settings:
+  id: 'views_block:jaunumu_bloks-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
