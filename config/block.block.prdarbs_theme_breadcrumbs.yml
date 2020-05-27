@@ -1,0 +1,22 @@
+uuid: 747466d0-7e01-4565-a305-8d706be45914
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - prdarbs_theme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: prdarbs_theme_breadcrumbs
+theme: prdarbs_theme
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

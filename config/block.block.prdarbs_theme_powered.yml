@@ -1,0 +1,22 @@
+uuid: 39fe9135-d15c-4959-99e6-aaae238d2f48
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - prdarbs_theme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: prdarbs_theme_powered
+theme: prdarbs_theme
+region: header
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
